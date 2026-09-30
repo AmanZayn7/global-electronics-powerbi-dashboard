@@ -6,7 +6,7 @@ A three-page Power BI report connecting executive performance, product economics
 **Scope:** 62,884 sales line items, January 2016 to February 2021.  
 **Author:** [Aman](https://github.com/AmanZayn7)
 
-[Download the report](global%20electronics.pbix) | [Source dataset](https://mavenanalytics.io/data-playground/global-electronics-retailer)
+| [Source dataset](https://mavenanalytics.io/data-playground/global-electronics-retailer)
 
 > Sales records end on February 20, 2021. The dataset contains all 12 months for 2016-2020, but 2021 is incomplete.
 
@@ -272,7 +272,7 @@ These are analytical consistency checks, not a claim of automated test coverage 
 
 ## Explore the Report
 
-1. Download [the Power BI report](global%20electronics.pbix) and open it in Power BI Desktop.
+1. Download the Power BI report and open it in Power BI Desktop.
 2. Use page navigation and the year slicer to explore the measures and dynamic findings.
 3. Hover over visuals for supporting metrics and expand the decomposition tree to investigate gross-profit contributions.
 4. To refresh the data, extract [the dataset archive](Global%2BElectronics%2BRetailer.zip) and update local source paths in Power Query as needed.
