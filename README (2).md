@@ -6,7 +6,7 @@ A three-page Power BI report connecting executive performance, product economics
 **Scope:** 62,884 sales line items, January 2016 to February 2021.  
 **Author:** [Aman](https://github.com/AmanZayn7)
 
-| [Source dataset](https://mavenanalytics.io/data-playground/global-electronics-retailer)
+[Source dataset](https://mavenanalytics.io/data-playground/global-electronics-retailer)
 
 > Sales records end on February 20, 2021. The dataset contains all 12 months for 2016-2020, but 2021 is incomplete.
 
