@@ -252,7 +252,7 @@ The project included checks that address common sources of misleading results:
 - Standardized currencies, percentages, and large-number display units across visuals.
 - Distinguished ratio calculations, cumulative customer groups, and gross profit from potentially misleading interpretations.
 
-These are analytical consistency checks, not a claim of automated test coverage or a production deployment.
+These are analytical consistency checks, not a claim of automated test coverage or a production deployment. See [verification results and runtime limitations](docs/VERIFICATION.md) for the independent data and report-structure checks.
 
 ## Metric Definitions and Interpretation
 
