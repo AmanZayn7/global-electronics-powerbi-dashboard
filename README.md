@@ -282,7 +282,6 @@ Screenshots provide static previews. The `.pbix` contains the interactive report
 ## Sources and Technical References
 
 - [Global Electronics Retailer dataset - Maven Analytics](https://mavenanalytics.io/data-playground/global-electronics-retailer)
-- [CALCULATE and context transition - Microsoft Learn](https://learn.microsoft.com/en-us/dax/calculate-function-dax)
 
 ---
 
