@@ -6,7 +6,7 @@ A three-page Power BI report connecting executive performance, product economics
 **Scope:** 62,884 sales line items, January 2016 to February 2021.  
 **Author:** [Aman](https://github.com/AmanZayn7)
 
-[Source dataset](https://mavenanalytics.io/data-playground/global-electronics-retailer)
+[Download the Power BI report](global-electronics.pbix) · [Source dataset](https://mavenanalytics.io/data-playground/global-electronics-retailer)
 
 > Sales records end on February 20, 2021. The dataset contains all 12 months for 2016-2020, but 2021 is incomplete.
 
@@ -120,7 +120,7 @@ The preparation stage converted the source CSV tables into usable inputs for fin
 
 | Preparation task | Implementation | Why it matters |
 | --- | --- | --- |
-| Currency-text cleaning | Removed currency symbols and thousands separators from product unit-price and unit-cost fields before converting them to decimal numbers. | Enables arithmetic on numeric values rather than formatted text. |
+| Currency-text cleaning | Removed dollar symbols, trimmed whitespace, and converted product unit-price and unit-cost fields to decimal numbers. | Enables arithmetic on numeric values rather than formatted text. |
 | Date normalization | Assigned date types to order dates, delivery dates, customer birthdays, store opening dates, and exchange-rate dates. | Supports consistent date interpretation and calendar-based analysis. |
 | Query organization | Used fact/dimension naming to distinguish sales transactions from descriptive tables. | Makes table roles and measure dependencies easier to follow. |
 | Multi-table preparation | Prepared sales, product, customer, store, and exchange-rate sources separately. | Preserves each table's grain and avoids conflating descriptive records with sales transactions. |
@@ -275,7 +275,7 @@ These are analytical consistency checks, not a claim of automated test coverage 
 1. Download the Power BI report and open it in Power BI Desktop.
 2. Use page navigation and the year slicer to explore the measures and dynamic findings.
 3. Hover over visuals for supporting metrics and expand the decomposition tree to investigate gross-profit contributions.
-4. To refresh the data, extract [the dataset archive](Global%2BElectronics%2BRetailer.zip) and update local source paths in Power Query as needed.
+4. To refresh the data, extract [the dataset archive](Global-Electronics-Retailer.zip) and update local source paths in Power Query as needed.
 
 Screenshots provide static previews. The `.pbix` contains the interactive report. Custom visual rendering may vary across viewing and export environments.
 
